@@ -144,13 +144,12 @@ footer {
     color: #ff6f61;
 }
 
-/*Desktop*/
-.hamburger{display: none;}
-.menu{display:block;}
-.visible{display:block;}
-
-/*Mobile*/
-@media(max-width:700px;){
-.hamburger{display;block}
-.menu{display: none}
+/* Desktop */
+.hamburger { display: none; }
+.menu { display: block; }
+.visible { display:block }
+/* Mobile */
+@media (max-width: 700px) {
+    .hamburger { display: block; }
+    .menu { display: none; }
 }
