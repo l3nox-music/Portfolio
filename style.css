@@ -147,15 +147,6 @@ footer {
 /* Desktop */
 .hamburger { display: none; }
 .menu { display: block; }
-.visible { display:block }
-/* Mobile */
-@media (max-width: 700px) {
-    .hamburger { display: block; }
-    .menu { display: none; }
-}
-.hamburger .line{
-margin: 5px 0;
-}
 .visible{
     position:absolute;
     z-index: 2;
@@ -164,4 +155,13 @@ margin: 5px 0;
     width: 100%;
     display:block;
 }
+/* Mobile */
+@media (max-width: 700px) {
+    .hamburger { display: block; }
+    .menu { display: none; }
+}
+.hamburger .line{
+margin: 5px 0;
+}
+
 }
