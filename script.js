@@ -13,9 +13,9 @@ menuIcon.addEventListener('click', toggleMenu);
 
 // Update menu display on window resize
 window.addEventListener('resize', function() {
-    if (window.innerWidth >= 701 && window.getComputedStyle(menuContent).display === 'none') {
+    if (window.innerWidth >= 701) {
         menuContent.style.display = 'block';
-    } else if (window.innerWidth < 701 && window.getComputedStyle(menuContent).display !== 'none') {
+    } else {
         menuContent.style.display = 'none';
     }
 });
