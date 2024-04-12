@@ -154,7 +154,14 @@ footer {
     .menu { display: none; }
 }
 .hamburger .line{
-    background: white;
-    width:50px;
-    height:4px;
+margin: 5px 0;
+}
+.visible{
+    position:absolute;
+    z-index: 2;
+    top: 100px;
+    background: black;
+    width: 100%;
+    display:block;
+}
 }
